@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 30px;
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    -webkit-app-region: drag;
+    position: fixed;
+}
+
+.header .logo {
+    float: left;
+    /* background-color: rgb(206, 206, 206); */
+    width: 30px;
+    height: 30px;
+    background-image: url(../imgs/aico.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    
+}
+
+.header #min {
+    float: right;
+    /* background-color: black; */
+    width: 46px;
+    height: 30px;
+    background-image: url(../imgs/min.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    -webkit-app-region: no-drag;
+}
+
+.header #min:hover {
+    background-color: rgb(185, 185, 185);
+}
+
+.header #max {
+    float: right;
+    /* background-color: pink; */
+    width: 46px;
+    height: 30px;
+    background-image: url(../imgs/max.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    -webkit-app-region: no-drag;
+}
+
+.header #max:hover {
+    background-color: rgb(185, 185, 185);
+}
+
+.header #close {
+    float: right;
+    /* background-color: saddlebrown; */
+    width: 46px;
+    height: 30px;
+    background-image: url(../imgs/close.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    -webkit-app-region: no-drag;
+}
+
+.header #close:hover {
+    background-color: rgb(232, 17, 35);
+}
+
+.pos {
+    height: 30px;
+}
+
+.emoticons {
+    top: 30px;
+    background-color: rgb(243, 243, 243);
+    height: 1000px;
+    overflow-y: auto;
+}
+
+.emoticons .imgframe {
+    float: left;
+    /* background-color: red; */
+    width: 70px;
+    height: 68px;
+    margin: 1px;
+    margin-top: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoticons .imgframe:hover {
+    float: left;
+    background-color: skyblue;
+    width: 70px;
+    height: 68px;
+    margin: 1px;
+    margin-top: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoticons .imgframe img {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+    /* padding: 18px; */
+    /* 53 */
+    background-color: violet;
+}
